@@ -1,0 +1,84 @@
+body{
+  font-family: 'Poppins';
+  background-color:hsl(0, 0%, 98%);
+  text-align: center;
+  color:hsl(229, 6%, 66%);
+}
+
+/*- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+- Very Light Gray: hsl(0, 0%, 98%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Dark Blue: hsl(234, 12%, 34%)*/
+
+span{
+  font-weight:200;
+  color:hsl(229, 6%, 66%);
+}
+h1{
+  width: 80%;
+  margin: auto;
+  font-weight: 600;
+  color: initial;
+}
+p{
+  font-weight: 200;
+}
+h2{
+  font-weight: 400;
+  color: initial;
+  line-height:0;
+}
+img{
+  float: right;
+}
+.TextBox{
+  width: 37%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.Box{
+  background-color: white;
+  border-top-style: solid;
+  border-radius: 1%;
+  display: inline-block;
+  text-align: left;
+  width: 300px;
+  height: 170px;
+  padding: 2%;
+  box-shadow: 0px 20px 15px  -15px hsl(229, 6%, 66%) ;
+}
+.Left{
+  border-color:hsl(180, 62%, 55%);
+  position: absolute;
+  left: 200px;
+  top: 350px;
+}
+.Top{
+  border-color:hsl(0, 78%, 62%);
+  display: block;
+  margin:auto;
+  margin-bottom: 30px;
+}
+.Buttom{
+  border-color:hsl(34, 97%, 64%);
+  display: block;
+  margin: auto;
+}
+.Right{
+  border-color:hsl(212, 86%, 64%);
+  position: absolute;
+  right: 180px;
+  top: 320px;
+}
+
+
+.attribution {
+   font-size: 11px;
+    text-align: center;
+    display: none;
+   }
+.attribution a { color: hsl(228, 45%, 44%); }
