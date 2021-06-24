@@ -3,6 +3,8 @@ body{
   background-color:hsl(0, 0%, 98%);
   text-align: center;
   color:hsl(229, 6%, 66%);
+  padding-top: 40px;
+  margin: 0;
 }
 
 /*- Red: hsl(0, 78%, 62%)
@@ -40,42 +42,51 @@ img{
   margin: auto;
   padding-bottom: 30px;
 }
+.SmallBoxes{
+  display: grid;
+  grid-template-columns: 0.5fr repeat(3,1fr) 0.5fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap:20px;
+}
+.Left{
+  border-color:hsl(180, 62%, 55%);
+  grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 4;
+}
+.Top{
+  border-color:hsl(0, 78%, 62%);
+  grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+.Right{
+  border-color:hsl(212, 86%, 64%);
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.Buttom{
+  border-color:hsl(34, 97%, 64%);
+  grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 3;
+grid-row-end: 5;
+}
 .Box{
   background-color: white;
   border-top-style: solid;
   border-radius: 1%;
   display: inline-block;
   text-align: left;
-  width: 300px;
-  height: 170px;
-  padding: 2%;
+  /*width: 300px;
+  height: 170px;*/
+  padding: 20px;
   box-shadow: 0px 20px 15px  -15px hsl(229, 6%, 66%) ;
 }
-.Left{
-  border-color:hsl(180, 62%, 55%);
-  position: absolute;
-  left: 200px;
-  top: 350px;
-}
-.Top{
-  border-color:hsl(0, 78%, 62%);
-  display: block;
-  margin:auto;
-  margin-bottom: 30px;
-}
-.Buttom{
-  border-color:hsl(34, 97%, 64%);
-  display: block;
-  margin: auto;
-}
-.Right{
-  border-color:hsl(212, 86%, 64%);
-  position: absolute;
-  right: 180px;
-  top: 320px;
-}
-
-
 .attribution {
    font-size: 11px;
     text-align: center;
