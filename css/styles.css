@@ -37,6 +37,10 @@ h2{
 img{
   float: right;
 }
+.MasterBox{
+  display: flex;
+  flex-direction: column;
+}
 .TextBox{
   width: 37%;
   margin: auto;
